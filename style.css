@@ -1,0 +1,231 @@
+body {
+	font-family: 'Montserrat';
+	color: #AE7C78;
+	padding-top: 26px;
+	line-height: 20px;	
+}
+
+.title center {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+.nav {
+	position: relative;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	height: 65px;
+}
+
+.logotip {
+	height: 100%;
+}
+
+.nav li {	
+	margin-right: 102px;
+	float: left;
+ 
+}
+.nav ul {
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.nav li:last-of-type {
+	margin-right: 0; 
+}
+
+.nav li:nth-of-type(3) {
+	float: left;
+	margin-right: 224px; 
+}
+
+.nav li:nth-of-type(4),
+.nav li:nth-of-type(5) {
+	margin-right: 89px; 
+}
+
+
+.nav a {
+	color: #AE7C78;
+	text-decoration: none;
+}
+
+
+.nav .logotip {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.action1 {
+	margin-top: 81px;
+	display: grid;
+	margin-bottom: 48px;
+	grid-template-columns: 384px 1fr 1fr; 
+	grid-template-rows: 463px; 
+	
+}
+
+.action1 img {
+	margin-left: auto;
+	border-radius: 10px
+}
+
+
+.action1 img:nth-of-type(1) {
+	margin-top: auto;
+}
+
+.action1 p {
+	margin-bottom: 64px;
+}
+
+ header {
+	 height: 80px;
+	 border-top: 1px solid #AE7C78;
+	 border-bottom: 1px solid #AE7C78;
+ }
+h1 {
+	font-family: Playfair Display;
+	color: #AE7C78;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 44px;
+	line-height: 59px;
+	margin-bottom: 24px;
+	margin-top: 0;
+}
+h2 {
+	font-family: Playfair Display;
+	color: #AE7C78;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	margin-left: 420px;
+	letter-spacing: 0.02em;
+	width: 372px;
+}
+
+
+.buket1 {
+	font-style: italic;
+}
+
+.btn {
+	background: #D89999;
+	width: 285px;
+	height: 80px;
+	left: 120px;
+    top: 435px;
+	border-radius: 40px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dostavka {
+	padding-left: 102px;
+}
+
+.dostavka::before {
+	position: absolute;
+	width: 82px;
+	height: 52px;
+	left: 0;
+	top: 0;
+}
+
+.dostavka1 {
+	padding-left: 72px;
+	margin-left: 49px;
+}
+
+.dostavka1::before {
+	position: absolute;
+	width: 52px;
+	height: 52px;
+	left: 0;
+	top: 0;
+}
+
+.dostavka2 {
+	padding-left: 79px;
+	margin-left: 43px;
+}
+
+.dostavka2::before {
+	position: absolute;
+	width: 58.6px;
+	height: 52px;
+	left: 0;
+	top: 0;
+}
+
+.dostavka dt {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 8px;
+	color: #AE7C78;
+}
+
+.dostavka dd {
+	font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+	width: 285px;
+	font-size: 16px;
+}
+.dostavka1 dt {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+
+}
+.dostavka1 dd {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	width: 285px;
+	font-size: 16px;
+   line-height: 20px;
+   color: #AE7C78;
+}
+
+ .zakaz {
+	height: 391px;
+	left: 120px;
+	top: 2018px;
+	background: #AE7C78;
+ }
+ .skidka {
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 44px;
+	line-height: 59px;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+ }
+ .skidka text {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+ }
+
+
